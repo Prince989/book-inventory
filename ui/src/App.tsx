@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
-import DashboardMenu from './Components/DashboardMenu';
+import DashboardMenu from './Components/Dashboard/DashboardMenu';
 import { Provider } from 'react-redux';
 import { store } from './lib/store';
-import DashboardContainer from './Components/DashboardContainer';
+import DashboardContainer from './Components/Dashboard/DashboardContainer';
 
 function App() {
   return (

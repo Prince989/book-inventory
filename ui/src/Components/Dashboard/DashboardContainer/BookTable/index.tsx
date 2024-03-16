@@ -1,9 +1,9 @@
 import { IconButton } from '@mui/material'
 import CreateOutlinedIcon from '@mui/icons-material/CreateOutlined';
 import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined';
-import { IBook } from '../../../types';
+import { IBook } from '../../../../types';
 import { useDispatch } from 'react-redux';
-import { showEditModal } from '../../../lib/features/global';
+import { showEditModal } from '../../../../lib/features/global';
 
 interface IBookTableProps {
   books: IBook[]

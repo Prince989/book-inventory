@@ -2,10 +2,10 @@ import React from 'react'
 import BookTable from './BookTable'
 import { Button } from '@mui/material'
 import AddRoundedIcon from '@mui/icons-material/AddRounded';
-import useBookHandler from '../../hooks/useBookHandler';
+import useBookHandler from '../../../hooks/useBookHandler';
 import { useDispatch } from 'react-redux';
-import { showAddModal } from '../../lib/features/global';
-import AddEditModal from '../Dashboard/AddEditModal';
+import { showAddModal } from '../../../lib/features/global';
+import AddEditModal from '../AddEditModal';
 
 export default function DashboardContainer() {
 

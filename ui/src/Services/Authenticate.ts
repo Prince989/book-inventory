@@ -29,7 +29,8 @@ export const authenticate = async (email: string, password: string) => {
 
 export const logout = async () => {
     try {
-        await signOut({ global: true });
+        const user = UserPool.getCurrentUser();
+        user?.signOut();
         window.location.href = "/login";
     } catch (error) {
         console.log('error signing out: ', error);

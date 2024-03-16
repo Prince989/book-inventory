@@ -2,7 +2,7 @@ import { InventoryRounded, PersonRounded } from "@mui/icons-material";
 import { useState } from "react";
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import { useSelector } from "react-redux";
-import { RootState } from "../../lib/store";
+import { RootState } from "../../../lib/store";
 
 interface IListItem {
     children: any
