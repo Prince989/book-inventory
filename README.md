@@ -18,7 +18,7 @@ then use ``` amplify pull ``` with paramaters that Amplify gives you
 then use ``` amplify add api ``` to make you an API; choose a name for it 
 and also it wants you a name for your Lambda function 
 
-Set the name and if it wanted to add a storage say yes to add your dynamoDB to the project 
+Set the name and if it wanted to add a storage say yes, In order to add your dynamoDB to the project 
 
 after all of implementation use ``` amplify push ``` to push your latest edition to the Amplify server and deploy it there
 
