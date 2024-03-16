@@ -1,4 +1,4 @@
-## Getting Started with Full Stack Book Inventory Management Project
+# Getting Started with Full Stack Book Inventory Management Project
 
 ## Demo the application
 
@@ -11,7 +11,7 @@ https://master.d26npoqqlo2vki.amplifyapp.com/
 
 Authentication system implemented using Cognito 
 
-Use the informations below in order to sign in to go to the dashboard 
+Use the information below to sign in and go to the dashboard 
 
 Email : alireza1377aj@gmail.com
 
