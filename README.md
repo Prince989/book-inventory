@@ -29,7 +29,7 @@ https://docs.amplify.aws/react/start/getting-started/
 
 Frontend project implemented by React JS
 
-### Authentication
+## Authentication
 
 Authentication system implemented using Cognito 
 
