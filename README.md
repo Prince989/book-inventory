@@ -1,5 +1,24 @@
 ## Getting Started with Full Stack Book Inventory Management Project
 
+## Demo the application
+
+Enter the link below
+
+https://master.d26npoqqlo2vki.amplifyapp.com/
+
+
+### Authentication
+
+Authentication system implemented using Cognito 
+
+Use the informations below in order to sign in to go to the dashboard 
+
+Email : alireza1377aj@gmail.com
+
+Password : AppDeveloper#98
+
+## Implementation
+
 ### Backend
 
 Backend project implemented using Amplify & Lambda & DynamoDB
@@ -28,16 +47,6 @@ https://docs.amplify.aws/react/start/getting-started/
 ### Frontend
 
 Frontend project implemented by React JS
-
-## Authentication
-
-Authentication system implemented using Cognito 
-
-And in order to sign in to interact with the project use this credentials
-
-Email : alireza1377aj@gmail.com
-
-Password : AppDeveloper#98
 
 #### Scripts to run the frontend project
 
