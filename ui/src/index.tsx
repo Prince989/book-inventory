@@ -10,10 +10,6 @@ import LoginPage from './Components/LoginPage';
 import { Navigate, Outlet } from "react-router-dom";
 import UserPool from './Services/UserPool';
 import { SnackbarProvider } from 'notistack';
-/* import { Amplify } from 'aws-amplify';
-import config from './amplifyconfiguration.json';
-
-Amplify.configure(config); */
 
 const PrivateRoute = () => {
   const user = UserPool.getCurrentUser()

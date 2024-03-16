@@ -39,13 +39,10 @@ export default function DashboardMenu() {
     }
 
     return (
-        <div className={'lg:w-2/12 sm:w-4/12 xs:w-1/2 h-screen transition-all duration-300 ease-out bg-default lg:translate-x-0 sm:-translate-x-full xs:-translate-x-full ' + (responsiveShowMenu ? " sm:!translate-x-0 xs:!translate-x-0" : "")} >
+        <div className={'lg:w-2/12 z-50 lg:static sm:fixed xs:fixed sm:w-4/12 xs:w-1/2 h-screen transition-all duration-300 ease-out bg-default lg:translate-x-0 sm:-translate-x-full xs:-translate-x-full ' + (responsiveShowMenu ? " sm:!translate-x-0 xs:!translate-x-0" : "")} >
             <ul>
                 <ListItem handleClick={() => handleClick(0)} selected={selectedTab == 0} icon={<InventoryRounded />}>
                     Inventory List
-                </ListItem>
-                <ListItem handleClick={() => handleClick(1)} selected={selectedTab == 1} icon={<PersonOutlineOutlinedIcon />}>
-                    Users
                 </ListItem>
             </ul>
         </div>

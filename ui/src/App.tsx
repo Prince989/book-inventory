@@ -5,13 +5,15 @@ import Header from './Components/Header';
 import DashboardMenu from './Components/DashboardMenu';
 import { Provider } from 'react-redux';
 import { store } from './lib/store';
+import DashboardContainer from './Components/DashboardContainer';
 
 function App() {
   return (
     <Provider store={store}>
-      <div>
-        <Header />
+      <Header />
+      <div className='lg:flex sm:block xs:block'>
         <DashboardMenu />
+        <DashboardContainer />
       </div>
     </Provider>
   );
