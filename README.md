@@ -29,6 +29,15 @@ https://docs.amplify.aws/react/start/getting-started/
 
 Frontend project implemented by React JS
 
+### Authentication
+
+Authentication system implemented using Cognito 
+
+And in order to sign in to interact with the project use this credentials
+
+Email : alireza1377aj@gmail.com
+Password : AppDeveloper#98
+
 #### Scripts to run the frontend project
 
 #### `npm start`
